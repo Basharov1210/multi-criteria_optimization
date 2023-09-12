@@ -27,11 +27,9 @@
 #### Число элементов в множестве
 
 <table>
-    <thead>
-        <tr>
-            <th  rowspan=2 align="center">Критерии</th><th  colspan=7 align="center">Критерии</th>
-        </tr>
-    </thead>
+    <tr>
+        <th  rowspan=2 align="center">Критерии</th><th  colspan=7 align="center">Критерии</th>
+    </tr>
     <tbody>
         <tr>
             <td align="center">1 спортсмен</td>
