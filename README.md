@@ -7,40 +7,40 @@
 <table>
     <thead>
         <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
+            <th  rowspan=2 align="center">Число элементов в множествах</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4 align="center">R1 Text</td>
-            <td rowspan=2 align="center">R2 Text A</td>
-            <td align="center">R3 Text A</td>
+            <td align="center">X</td>
+            <td align="center">P</td>
         </tr>
         <tr>
-            <td align="center">R3 Text B</td>
-        </tr>
-        <tr>
-            <td rowspan=2 align="center">R2 Text B</td>
-            <td align="center">R3 Text C</td>
-        </tr>
-        <tr>
-            <td align="center">R3 Text D</td>
+            <td align="center">7</td>
+            <td align="center">5</td>
         </tr>
     </tbody>
 </table>
 
 #### Число элементов в множестве
 
-|Кртерии|
-||
-||
-||
-||
-||
-||
-
+<table>
+    <thead>
+        <tr>
+            <th  rowspan=2 align="center">Число элементов в множествах</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">X</td>
+            <td align="center">P</td>
+        </tr>
+        <tr>
+            <td align="center">7</td>
+            <td align="center">5</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Описание используемых структур данных
 
@@ -58,15 +58,5 @@
 
 Тестирование проведено на различных входных данных. Ошибок не найдено!
 
-#### Граф двудольный
 
-![alt tag](https://github.com/Basharov1210/Bipartite_graph/blob/main/img/test_true.png "Тестирование граф-двудольный")
-
-![alt tag](https://github.com/Basharov1210/Bipartite_graph/blob/main/img/true.png "Рисунок двудольного графа")
-
-#### Граф двудольный
-
-![alt tag](https://github.com/Basharov1210/Bipartite_graph/blob/main/img/test_false.png "Тестирование граф не двудольный")
-
-![alt tag](https://github.com/Basharov1210/Bipartite_graph/blob/main/img/false.png "Рисунок не двудольного графа")
 
