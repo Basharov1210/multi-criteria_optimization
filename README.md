@@ -29,36 +29,88 @@
 <table>
     <thead>
         <tr>
-            <th  rowspan=2 align="center">Число элементов в множествах</th>
+            <th  rowspan=2 align="center">Критерии</th><th  colspan=7 align="center">Критерии</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center">X</td>
-            <td align="center">P</td>
+            <td align="center">1 спортсмен</td>
+            <td align="center">2 спортсмен</td>
+            <td align="center">3 спортсмен</td>
+            <td align="center">4 спортсмен</td>
+            <td align="center">5 спортсмен</td>
+            <td align="center">6 спортсмен</td>
+            <td align="center">7 спортсмен</td>
         </tr>
         <tr>
-            <td align="center">7</td>
+            <td align="center">Скорость</td>
+            <td align="center">4</td>
+            <td align="center">3</td>
+            <td align="center">6</td>
             <td align="center">5</td>
+            <td align="center">7</td>
+            <td align="center">8</td>
+            <td align="center">2</td>
+        </tr>
+        <tr>
+            <td align="center">Гибкость</td>
+            <td align="center">2</td>
+            <td align="center">6</td>
+            <td align="center">4</td>
+            <td align="center">3</td>
+            <td align="center">5</td>
+            <td align="center">7</td>
+            <td align="center">8</td>
+        </tr>
+        <tr>
+            <td align="center">Музыка</td>
+            <td align="center">8</td>
+            <td align="center">2</td>
+            <td align="center">7</td>
+            <td align="center">6</td>
+            <td align="center">4</td>
+            <td align="center">3</td>
+            <td align="center">5</td>
+        </tr>
+        <tr>
+            <td align="center">Техничность исполнения</td>
+            <td align="center">5</td>
+            <td align="center">7</td>
+            <td align="center">4</td>
+            <td align="center">8</td>
+            <td align="center">2</td>
+            <td align="center">6</td>
+            <td align="center">3</td>
+        </tr>
+        <tr>
+            <td align="center">Мастерство</td>
+            <td align="center">3</td>
+            <td align="center">4</td>
+            <td align="center">5</td>
+            <td align="center">2</td>
+            <td align="center">8</td>
+            <td align="center">3</td>
+            <td align="center">6</td>
         </tr>
     </tbody>
 </table>
 
 ## Описание используемых структур данных
 
-**Двудольный граф**— это граф, множество вершин которого можно разбить на две части таким образом, что каждое ребро графа соединяет какую-то вершину из одной части с какой-то вершиной другой части, то есть не существует ребра, соединяющего две вершины из одной и той же части.
+Принцип Беллмана-Заде, как правило, применяется совместно с методом иерархий Т. Саати, что позволяет находить степени принадлежности элементов нечетких множеств с помощью процедуры парных сравнений вариантов. Метод иерархий предусматривает формирование матрицы парных сравнений, проверку ее согласованности и отыскание собственного вектора, который определяет искомые степени принадлежности.
 
-## Пользовательский интерфейс
-
-![alt tag](https://github.com/Basharov1210/Bipartite_graph/blob/main/img/Interface.png "Интерфейс")
-
-## Описание алгоритма
-
-**Поиск в ширину** — алгоритм позволяет определять является ли граф двудольным. Суть алгоритма заключается в том, что помечать каждый следующий узел одним из 2 цветов, и если узел помечен уже противоположным цветом, то граф не является двудольным.(1 – черный цвет, -1 – красный цвет)
+Применяются простые расчетные соотношения, содержащие сравнения с наихудшей альтернативой и наименее важным критерием.
 
 ## Тестирование
 
 Тестирование проведено на различных входных данных. Ошибок не найдено!
 
+![alt tag](https://github.com/Basharov1210/multi-criteria_optimization/blob/main/img/test_1.png "Тестирование")
 
+![alt tag](https://github.com/Basharov1210/multi-criteria_optimization/blob/main/img/test_2.png "Тестирование")
 
+![alt tag](https://github.com/Basharov1210/multi-criteria_optimization/blob/main/img/test_3.png "Тестирование")
+
+![alt tag](https://github.com/Basharov1210/multi-criteria_optimization/blob/main/img/test_4.png "Тестирование")
+
+![alt tag](https://github.com/Basharov1210/multi-criteria_optimization/blob/main/img/test_5.png "Тестирование")
