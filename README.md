@@ -5,19 +5,21 @@
 Определить, является ли заданный граф двудольным.Федерация фигурного катания некоторого государства решила, что по результатам ближайших Олимпийских игр у государства должен быть олимпийский чемпион. Предложить множество возможных альтернатив X, множество возможных критериев P.
 
 <table>
+    <colgroup>
+        <col colspan="2" style="background:Khaki"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+        <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
+    </colgroup>
     <thead>
         <tr>
-            <th  rowspan=2 align="center">Число элементов в множествах</th>
+            <th  colspan="2" align="center">Число элементов в множествах</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center">X</td>
-            <td align="center">P</td>
+            <td align="center">X</td><td align="center">P</td>
         </tr>
         <tr>
-            <td align="center">7</td>
-            <td align="center">5</td>
+            <td align="center">7</td><td align="center">5</td>
         </tr>
     </tbody>
 </table>
